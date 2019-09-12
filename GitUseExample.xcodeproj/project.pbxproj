@@ -14,6 +14,7 @@
 		DD6408A6232AA7B000D04BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6408A4232AA7B000D04BD8 /* LaunchScreen.storyboard */; };
 		DD6408B1232AA7B000D04BD8 /* GitUseExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6408B0232AA7B000D04BD8 /* GitUseExampleTests.swift */; };
 		DD6408BC232AA7B000D04BD8 /* GitUseExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6408BB232AA7B000D04BD8 /* GitUseExampleUITests.swift */; };
+		DD6408CA232AAFB200D04BD8 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6408C9232AAFB200D04BD8 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DD6408B7232AA7B000D04BD8 /* GitUseExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6408BB232AA7B000D04BD8 /* GitUseExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUseExampleUITests.swift; sourceTree = "<group>"; };
 		DD6408BD232AA7B000D04BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6408C9232AAFB200D04BD8 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DD6408A2232AA7B000D04BD8 /* Assets.xcassets */,
 				DD6408A4232AA7B000D04BD8 /* LaunchScreen.storyboard */,
 				DD6408A7232AA7B000D04BD8 /* Info.plist */,
+				DD6408C9232AAFB200D04BD8 /* MapForItinerary.swift */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				DD64089E232AA7AE00D04BD8 /* ViewController.swift in Sources */,
 				DD64089C232AA7AE00D04BD8 /* AppDelegate.swift in Sources */,
+				DD6408CA232AAFB200D04BD8 /* MapForItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

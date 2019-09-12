@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func tapButton(_ sender: Any) {
-        print("This is a Git tutorial")
+        print("You finished!")
     }
     override func viewDidLoad() {
         super.viewDidLoad()

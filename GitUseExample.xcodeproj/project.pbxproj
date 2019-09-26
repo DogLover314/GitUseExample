@@ -12,8 +12,6 @@
 		DD6408A1232AA7AE00D04BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD64089F232AA7AE00D04BD8 /* Main.storyboard */; };
 		DD6408A3232AA7B000D04BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6408A2232AA7B000D04BD8 /* Assets.xcassets */; };
 		DD6408A6232AA7B000D04BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6408A4232AA7B000D04BD8 /* LaunchScreen.storyboard */; };
-		DD6408B1232AA7B000D04BD8 /* GitUseExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6408B0232AA7B000D04BD8 /* GitUseExampleTests.swift */; };
-		DD6408BC232AA7B000D04BD8 /* GitUseExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6408BB232AA7B000D04BD8 /* GitUseExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		DD6408A5232AA7B000D04BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD6408A7232AA7B000D04BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD6408AC232AA7B000D04BD8 /* GitUseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD6408B0232AA7B000D04BD8 /* GitUseExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUseExampleTests.swift; sourceTree = "<group>"; };
-		DD6408B2232AA7B000D04BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD6408B7232AA7B000D04BD8 /* GitUseExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD6408BB232AA7B000D04BD8 /* GitUseExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUseExampleUITests.swift; sourceTree = "<group>"; };
-		DD6408BD232AA7B000D04BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				DD64089A232AA7AE00D04BD8 /* GitUseExample */,
-				DD6408AF232AA7B000D04BD8 /* GitUseExampleTests */,
-				DD6408BA232AA7B000D04BD8 /* GitUseExampleUITests */,
 				DD640899232AA7AE00D04BD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				DD6408A7232AA7B000D04BD8 /* Info.plist */,
 			);
 			path = GitUseExample;
-			sourceTree = "<group>";
-		};
-		DD6408AF232AA7B000D04BD8 /* GitUseExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD6408B0232AA7B000D04BD8 /* GitUseExampleTests.swift */,
-				DD6408B2232AA7B000D04BD8 /* Info.plist */,
-			);
-			path = GitUseExampleTests;
-			sourceTree = "<group>";
-		};
-		DD6408BA232AA7B000D04BD8 /* GitUseExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DD6408BB232AA7B000D04BD8 /* GitUseExampleUITests.swift */,
-				DD6408BD232AA7B000D04BD8 /* Info.plist */,
-			);
-			path = GitUseExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6408B1232AA7B000D04BD8 /* GitUseExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6408BC232AA7B000D04BD8 /* GitUseExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
